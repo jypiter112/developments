@@ -1,0 +1,13 @@
+[
+  {
+    "file": "read-config.c",
+    "arguments": [
+      "/usr/sbin/clang",
+      "-o",
+      "read-config",
+      "read-config.c"
+    ],
+    "directory": "/home/admin/develop/kernel-modules-arch/c/firewall-module/read-config",
+    "output": "read-config"
+  }
+]

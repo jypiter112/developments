@@ -1,0 +1,13 @@
+[
+  {
+    "file": "brightctl.c",
+    "arguments": [
+      "/usr/sbin/clang",
+      "-o",
+      "brightctl",
+      "brightctl.c"
+    ],
+    "directory": "/home/admin/develop/mybrightness-ctl",
+    "output": "brightctl"
+  }
+]

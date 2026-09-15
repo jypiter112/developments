@@ -1,0 +1,1 @@
+savedcmd_firewall.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/lib/modules/7.1.3-arch1-2/build/scripts/module.lds -o firewall.ko firewall.o firewall.mod.o .module-common.o

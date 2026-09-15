@@ -1,0 +1,17 @@
+[
+  {
+    "file": "main.cpp",
+    "arguments": [
+      "/usr/sbin/g++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "main.cpp",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/admin/develop/cpp/pass-man",
+    "output": "main"
+  }
+]

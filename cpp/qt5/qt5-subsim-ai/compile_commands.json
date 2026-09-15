@@ -1,0 +1,23 @@
+[
+  {
+    "file": "main.cpp",
+    "arguments": [
+      "/usr/sbin/g++",
+      "-std=c++14",
+      "-Wall",
+      "-fPIC",
+      "-DQT_WIDGETS_LIB",
+      "-I/usr/include/qt/QtWidgets",
+      "-I/usr/include/qt",
+      "-DQT_GUI_LIB",
+      "-I/usr/include/qt/QtGui",
+      "-DQT_CORE_LIB",
+      "-I/usr/include/qt/QtCore",
+      "main.cpp",
+      "-o",
+      "triangle_app"
+    ],
+    "directory": "/home/admin/develop/cpp/qt5/qt5-subsim-ai",
+    "output": "triangle_app"
+  }
+]

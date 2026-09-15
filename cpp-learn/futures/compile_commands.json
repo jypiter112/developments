@@ -1,0 +1,18 @@
+[
+  {
+    "file": "futures.cpp",
+    "arguments": [
+      "/usr/sbin/clang++",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-c",
+      "futures.cpp",
+      "-o",
+      "futures.o"
+    ],
+    "directory": "/home/admin/develop/cpp-learn/futures",
+    "output": "futures.o"
+  }
+]

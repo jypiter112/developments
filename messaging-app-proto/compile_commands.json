@@ -1,0 +1,17 @@
+[
+  {
+    "file": "main.cpp",
+    "arguments": [
+      "/usr/sbin/clang++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-O2",
+      "main.cpp",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/admin/develop/messaging-app-proto",
+    "output": "main"
+  }
+]

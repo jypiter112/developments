@@ -1,0 +1,1 @@
+savedcmd_lenovobrightnessctl.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/lib/modules/7.0.11-arch1-1/build/scripts/module.lds -o lenovobrightnessctl.ko lenovobrightnessctl.o lenovobrightnessctl.mod.o .module-common.o

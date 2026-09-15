@@ -1,0 +1,94 @@
+[
+  {
+    "file": "main.cpp",
+    "arguments": [
+      "/usr/sbin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-fPIC",
+      "-DQT_WIDGETS_LIB",
+      "-I/usr/include/qt/QtWidgets",
+      "-I/usr/include/qt",
+      "-DQT_GUI_LIB",
+      "-I/usr/include/qt/QtGui",
+      "-DQT_CORE_LIB",
+      "-I/usr/include/qt/QtCore",
+      "-c",
+      "main.cpp",
+      "-o",
+      "main.o"
+    ],
+    "directory": "/home/admin/develop/cpp/qt5/qt5-subsim",
+    "output": "main.o"
+  },
+  {
+    "file": "Triangle.cpp",
+    "arguments": [
+      "/usr/sbin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-fPIC",
+      "-DQT_WIDGETS_LIB",
+      "-I/usr/include/qt/QtWidgets",
+      "-I/usr/include/qt",
+      "-DQT_GUI_LIB",
+      "-I/usr/include/qt/QtGui",
+      "-DQT_CORE_LIB",
+      "-I/usr/include/qt/QtCore",
+      "-c",
+      "Triangle.cpp",
+      "-o",
+      "Triangle.o"
+    ],
+    "directory": "/home/admin/develop/cpp/qt5/qt5-subsim",
+    "output": "Triangle.o"
+  },
+  {
+    "file": "RenderWidget.cpp",
+    "arguments": [
+      "/usr/sbin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-fPIC",
+      "-DQT_WIDGETS_LIB",
+      "-I/usr/include/qt/QtWidgets",
+      "-I/usr/include/qt",
+      "-DQT_GUI_LIB",
+      "-I/usr/include/qt/QtGui",
+      "-DQT_CORE_LIB",
+      "-I/usr/include/qt/QtCore",
+      "-c",
+      "RenderWidget.cpp",
+      "-o",
+      "RenderWidget.o"
+    ],
+    "directory": "/home/admin/develop/cpp/qt5/qt5-subsim",
+    "output": "RenderWidget.o"
+  },
+  {
+    "file": "RenderWidget_moc.cpp",
+    "arguments": [
+      "/usr/sbin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-fPIC",
+      "-DQT_WIDGETS_LIB",
+      "-I/usr/include/qt/QtWidgets",
+      "-I/usr/include/qt",
+      "-DQT_GUI_LIB",
+      "-I/usr/include/qt/QtGui",
+      "-DQT_CORE_LIB",
+      "-I/usr/include/qt/QtCore",
+      "-c",
+      "RenderWidget_moc.cpp",
+      "-o",
+      "RenderWidget_moc.o"
+    ],
+    "directory": "/home/admin/develop/cpp/qt5/qt5-subsim",
+    "output": "RenderWidget_moc.o"
+  }
+]

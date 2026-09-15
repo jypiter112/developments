@@ -1,0 +1,13 @@
+[
+  {
+    "file": "main.c",
+    "arguments": [
+      "/usr/sbin/clang",
+      "-o",
+      "main",
+      "main.c"
+    ],
+    "directory": "/home/admin/develop/kernel-modules-arch/c/ioctl-params/userspace-program",
+    "output": "main"
+  }
+]
