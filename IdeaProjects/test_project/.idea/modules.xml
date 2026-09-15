@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LukuGeneraattori/LukuGeneraattori.iml" filepath="$PROJECT_DIR$/LukuGeneraattori/LukuGeneraattori.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LuokkaInvariantti/LuokkaInvariantti.iml" filepath="$PROJECT_DIR$/LuokkaInvariantti/LuokkaInvariantti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Palvelin/Palvelin.iml" filepath="$PROJECT_DIR$/Palvelin/Palvelin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP/TP.iml" filepath="$PROJECT_DIR$/TP/TP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TarkistaTaulut/TarkistaTaulut.iml" filepath="$PROJECT_DIR$/TarkistaTaulut/TarkistaTaulut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testi2/Testi2.iml" filepath="$PROJECT_DIR$/Testi2/Testi2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packX/packX.iml" filepath="$PROJECT_DIR$/packX/packX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_project.iml" filepath="$PROJECT_DIR$/test_project.iml" />
+    </modules>
+  </component>
+</project>
