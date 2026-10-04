@@ -1,0 +1,100 @@
+[
+  {
+    "file": "boot/boot.asm",
+    "arguments": [
+      "/usr/sbin/nasm",
+      "-f",
+      "bin",
+      "boot/boot.asm",
+      "-o",
+      "boot/boot.bin"
+    ],
+    "directory": "/home/admin/develop/custom-os/src",
+    "output": "boot/boot.bin"
+  },
+  {
+    "file": "kernel/entry.asm",
+    "arguments": [
+      "/usr/sbin/nasm",
+      "-f",
+      "elf32",
+      "kernel/entry.asm",
+      "-o",
+      "kernel/entry.o"
+    ],
+    "directory": "/home/admin/develop/custom-os/src",
+    "output": "kernel/entry.o"
+  },
+  {
+    "file": "kernel/kernel.c",
+    "arguments": [
+      "/usr/sbin/gcc",
+      "-m32",
+      "-ffreestanding",
+      "-fno-pie",
+      "-fno-pic",
+      "-fno-stack-protector",
+      "-fno-asynchronous-unwind-tables",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-MMD",
+      "-MP",
+      "-c",
+      "kernel/kernel.c",
+      "-o",
+      "kernel/kernel.o"
+    ],
+    "directory": "/home/admin/develop/custom-os/src",
+    "output": "kernel/kernel.o"
+  },
+  {
+    "file": "drivers/keyboard.c",
+    "arguments": [
+      "/usr/sbin/gcc",
+      "-m32",
+      "-ffreestanding",
+      "-fno-pie",
+      "-fno-pic",
+      "-fno-stack-protector",
+      "-fno-asynchronous-unwind-tables",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-MMD",
+      "-MP",
+      "-c",
+      "drivers/keyboard.c",
+      "-o",
+      "drivers/keyboard.o"
+    ],
+    "directory": "/home/admin/develop/custom-os/src",
+    "output": "drivers/keyboard.o"
+  },
+  {
+    "file": "drivers/vga.c",
+    "arguments": [
+      "/usr/sbin/gcc",
+      "-m32",
+      "-ffreestanding",
+      "-fno-pie",
+      "-fno-pic",
+      "-fno-stack-protector",
+      "-fno-asynchronous-unwind-tables",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-MMD",
+      "-MP",
+      "-c",
+      "drivers/vga.c",
+      "-o",
+      "drivers/vga.o"
+    ],
+    "directory": "/home/admin/develop/custom-os/src",
+    "output": "drivers/vga.o"
+  }
+]
