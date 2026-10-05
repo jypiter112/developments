@@ -48,53 +48,5 @@
     ],
     "directory": "/home/admin/develop/custom-os/src",
     "output": "kernel/kernel.o"
-  },
-  {
-    "file": "drivers/keyboard.c",
-    "arguments": [
-      "/usr/sbin/gcc",
-      "-m32",
-      "-ffreestanding",
-      "-fno-pie",
-      "-fno-pic",
-      "-fno-stack-protector",
-      "-fno-asynchronous-unwind-tables",
-      "-O2",
-      "-Wall",
-      "-Wextra",
-      "-Iinclude",
-      "-MMD",
-      "-MP",
-      "-c",
-      "drivers/keyboard.c",
-      "-o",
-      "drivers/keyboard.o"
-    ],
-    "directory": "/home/admin/develop/custom-os/src",
-    "output": "drivers/keyboard.o"
-  },
-  {
-    "file": "drivers/vga.c",
-    "arguments": [
-      "/usr/sbin/gcc",
-      "-m32",
-      "-ffreestanding",
-      "-fno-pie",
-      "-fno-pic",
-      "-fno-stack-protector",
-      "-fno-asynchronous-unwind-tables",
-      "-O2",
-      "-Wall",
-      "-Wextra",
-      "-Iinclude",
-      "-MMD",
-      "-MP",
-      "-c",
-      "drivers/vga.c",
-      "-o",
-      "drivers/vga.o"
-    ],
-    "directory": "/home/admin/develop/custom-os/src",
-    "output": "drivers/vga.o"
   }
 ]

@@ -1,14 +1,12 @@
 #ifndef KLIB_H
 #define KLIB_H
-
-// Move to types.h in future
-#define size_t unsigned int
-
+#include <stddef.h>
 /*
  * Function: replace libc with own implementation
  * src lib/klib.c
  */
 void kgetline(char *, int);
+void kprintf(const char*);
 int kstrcmpr(const char *, const char *, size_t);
 int kstrlen(const char *);
 void khandle_input(const char *);
