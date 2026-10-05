@@ -28,6 +28,15 @@ kernel/kernel.bin: $(OBJS) kernel/kernel.ld
 run: os.img
 	qemu-system-i386 -drive format=raw,file=os.img
 
+# run with disk image as a slave
+run_data: os.img data.img
+	qemu-system-i386 -drive format=raw,file=os.img,if=ide,index=0 -drive file=data.img,format=raw,if=ide,index=1
+
+# run and clean disk image as a slave 
+run_clean_data: os.img data.img
+	./scripts/make_empty_disk.sh
+	qemu-system-i386 -drive format=raw,file=os.img,if=ide,index=0 -drive file=data.img,format=raw,if=ide,index=1
+
 clean:
 	rm -f $(OBJS) $(OBJS:.o=.d) boot/boot.bin kernel/kernel.bin os.img
 
