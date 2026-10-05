@@ -53,6 +53,10 @@ Qemu flags:
 1. Add created `new_path/` to `wildcard kernel/*.c new_path/*.c` in Makefile
 2. rebuild `make clean && make run`
 
+### Road map
+1. IDE driver <-- currently working on as of 10/5/26
+2. Stack implementation
+3. FAT filesystem
 
 **Sources/References/AI help used**
 
